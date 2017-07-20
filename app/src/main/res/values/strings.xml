@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Pierwsza_Aplikacja</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_podstawowy_">Podstawowy_Activity</string>
+    <string name="title_activity_zaawansowany_">Zaawansowany_Activity</string>
+</resources>

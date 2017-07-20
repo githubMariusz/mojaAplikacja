@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0f0"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="pl.sobieraj.mariusz.pierwsza_aplikacja.MenuActivity"
+    tools:showIn="@layout/activity_menu">
+
+    <Button
+        android:id="@+id/btn_Prosty"
+        android:onClick="ProstY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prosty"
+
+        tools:layout_editor_absoluteY="53dp"
+        tools:layout_editor_absoluteX="237dp"
+        android:layout_above="@+id/btn_Zaawansowany"
+        android:layout_alignStart="@+id/btn_Wyjście"
+        android:layout_marginBottom="19dp" />
+
+    <Button
+        android:id="@+id/btn_Zaawansowany"
+        android:onClick="ZaawansowanY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:text="Zaawansowany"
+
+        tools:layout_editor_absoluteX="237dp"
+        tools:layout_editor_absoluteY="101dp"
+        android:layout_marginBottom="19dp"
+        android:layout_above="@+id/btn_Wyjście"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btn_Wyjście"
+        android:onClick="WyjściE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Wyjście"
+
+        tools:layout_editor_absoluteX="237dp"
+        tools:layout_editor_absoluteY="163dp"
+        android:layout_marginBottom="88dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
